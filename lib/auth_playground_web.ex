@@ -40,6 +40,7 @@ defmodule AuthPlaygroundWeb do
       import AuthPlaygroundWeb.Router.Helpers
       import AuthPlaygroundWeb.ErrorHelpers
       import AuthPlaygroundWeb.Gettext
+      import AuthPlaygroundWeb.Helpers.Auth, only: [signed_in?: 1]
     end
   end
 

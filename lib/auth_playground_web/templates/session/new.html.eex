@@ -1,0 +1,6 @@
+<h2>Sign in</h2>
+<%= form_for @conn, session_path(@conn, :create), [as: :session], fn f -> %>
+  <%= text_input f, :email, placeholder: "email address" %>
+  <%= password_input f, :password, placeholder: "choose wisely" %>
+  <%= submit "Sign in" %>
+<% end %>

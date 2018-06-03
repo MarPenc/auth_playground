@@ -51,8 +51,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :auth_playground, AuthPlayground.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "wanderer",
+  password: "wanderer",
   database: "auth_playground_dev",
   hostname: "localhost",
   pool_size: 10
